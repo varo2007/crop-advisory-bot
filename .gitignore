@@ -1,0 +1,13 @@
+(
+echo agri_env/
+echo __pycache__/
+echo */__pycache__/
+echo *.pyc
+echo datasets/
+echo farm_users.db
+echo secrets.toml
+echo .streamlit/secrets.toml
+echo .env
+echo *.log
+echo *.mp4
+) > .gitignore
